@@ -85,6 +85,8 @@ describe('idempotency', function () {
   it('renders code fences correctly', function () {
     var markdownString = '```\nHello I am Codefence\n```';
     var draftJSObject = markdownToDraft(markdownString);
+    console.log('----------')
+    console.log(JSON.stringify(draftJSObject))
     var markdownFromDraft = draftToMarkdown(draftJSObject);
 
     expect(markdownFromDraft).toEqual(markdownString);
