@@ -261,7 +261,7 @@ function markdownToDraft(string, options = {}) {
 
       // The entity map is a master object separate from the block so just add any entities created for this block to the master object
       Object.assign(entityMap, blockEntities);
-    } else if ((itemType.indexOf('_open') !== -1 || RemarkableSingletons.includes[itemType]) && BlockTypes[itemType]) {
+    } else if ((itemType.indexOf('_open') !== -1 || RemarkableSingletons.includes(itemType)) && BlockTypes[itemType]) {
       var depth = 0;
       var block;
 
