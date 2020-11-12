@@ -104,7 +104,7 @@ const DefaultBlockStyles = {
 // Remarkable blocks that stands alone.
 const DefaultRemarkableSingletons = [
   'hr',
-  'fence',
+  'fence'
 ]
 
 // Key generator for entityMap items
