@@ -167,7 +167,7 @@ var rawDraftJSObject = markdownToDraft(markdownString, {
 });
 ```
 
-If your custom Remarkable plugin returns a stand alone token, you can specify it
+If your custom Remarkable plugin returns a standalone token, you can specify it
 in the configuration:
 ``` js
 var rawDraftJSObject = markdownToDraft(markdownString, {
